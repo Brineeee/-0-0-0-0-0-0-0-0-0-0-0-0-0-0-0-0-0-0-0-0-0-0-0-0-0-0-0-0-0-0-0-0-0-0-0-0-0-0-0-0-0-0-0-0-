@@ -1,14 +1,78 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/Kavo-GT/main/lua"))()
 
-local GreenTheme = {
-      SchemeColor = Color3.fromRGB(120, 200, 0),
+local White = {
+      SchemeColor = Color3.fromRGB(255, 255, 255),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(0,0,0),
+      ElementColor = Color3.fromRGB(100, 100, 100)
+} 
+
+local Black = {
+      SchemeColor = Color3.fromRGB(60, 60, 60),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(30, 30, 30)
+} 
+
+local Red = {
+      SchemeColor = Color3.fromRGB(180, 0, 0),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(30, 30, 30)
+} 
+
+local Blue = {
+      SchemeColor = Color3.fromRGB(0, 0, 180),
       Background = Color3.fromRGB(0, 0, 0),
       Header = Color3.fromRGB(0, 0, 0),
       TextColor = Color3.fromRGB(255,255,255),
       ElementColor = Color3.fromRGB(0, 0, 0)
 } 
 
-local Window = Library.CreateLib("Green X Hub - Legends of Speed", GreenTheme)
+local Green = {
+      SchemeColor = Color3.fromRGB(0, 180, 0),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(30, 30, 30)
+} 
+
+local Pink = {
+      SchemeColor = Color3.fromRGB(255, 0, 180),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(0, 0, 0)
+} 
+
+local Violet = {
+      SchemeColor = Color3.fromRGB(150, 0, 255),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(0, 0, 0)
+} 
+
+local Yellow = {
+      SchemeColor = Color3.fromRGB(255, 255, 0),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(0, 0, 0)
+} 
+
+local Orange = {
+      SchemeColor = Color3.fromRGB(255, 150, 0),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(0, 0, 0)
+} 
+
+local Window = Library.CreateLib("HTTP HUB", Black)
 
 local Tab1 = Window:NewTab("Ultra Farm")
 local Tab1Section = Tab1:NewSection("|| Recommended ||")
