@@ -574,3 +574,4 @@ Tab3Section:NewToggle("Auto Rebirth","", function(state)
 		game.ReplicatedStorage.rEvents.rebirthEvent:FireServer("rebirthRequest")
 		end
 		end) 
+--hi skid! 
